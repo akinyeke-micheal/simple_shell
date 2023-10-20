@@ -6,8 +6,8 @@
  * the command's name, argument vector, and more, based on the provided
  * arguments.
  *
- * @param info - A pointer to the `info_t` structure to be initialized.
- * @param av - The argument vector representing the command and its arguments.
+ * @info: A pointer to the `info_t` structure to be initialized.
+ * @av: The argument vector representing the command and its arguments.
  */
 void set_info(info_t *info, char **av)
 {
