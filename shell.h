@@ -1,3 +1,34 @@
+
+
+/**
+ * @file shell.h
+ * @brief Header file for a simple shell program.
+ *
+ * This header file plays a pivotal role in creating a fully functional simple
+ * shell program in the C programming language. It provides a comprehensive set
+ * of data structures, function prototypes, constants, and macros, all designed
+ * to serve as the foundational building blocks for the development of a command-
+ * line interface that mimics the behavior of a traditional shell.
+ *
+ * The header file's content is organized to enable developers to implement a
+ * basic shell that offers key features commonly found in popular shells, such as
+ * executing commands, managing environment variables, tracking command history,
+ * and supporting aliases. It empowers users to interact with their operating
+ * system via a user-friendly command-line interface.
+ *
+ * Users are encouraged to include this header file in their projects and build
+ * upon it to create their customized shell programs. By implementing the function
+ * prototypes defined here, developers can extend the shell's capabilities and
+ * customize its behavior to suit their specific needs.
+ *
+ * In summary, this header file serves as the essential starting point for the
+ * creation of a simple shell program, providing the tools and structures needed
+ * to build a versatile command-line interface for interacting with a computer's
+ * operating system.
+ *
+ * Author: AKINYEKE MICHEAL
+ */
+
 #ifndef SHELL_H
 #define SHELL_H
 #include <stdio.h>
