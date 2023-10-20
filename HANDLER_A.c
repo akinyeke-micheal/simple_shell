@@ -2,10 +2,10 @@
 /**
  * print_error - Prints a descriptive error message to standard error output.
  *
- * This enigmatic function crafts an intricate message, weaving together the file name,
- * line number, command, and a specified error type into a tapestry of clarity amidst chaos.
- * The resulting masterpiece is then etched onto the canvas of standard error output,
- * illuminating the path to enlightenment for the seekers of wisdom within the shell.
+ * This function crafts an intricate message, weaving together the file name,
+ * line number, command, and a specified error type
+ * The resulting masterpiece is then etched onto the  standard error output,
+ * illuminating  path to enlightenment forseekers of wisdom within the shell.
  *
  * @info: Pointer to the parameter and return information structure.
  * @estr: String containing the specified error type.
