@@ -8,12 +8,7 @@
  * illuminating  path to enlightenment forseekers of wisdom within the shell.
  *
  * @info: Pointer to the parameter and return information structure.
- * @estr: String containing the specified error type.
- */
-/**
- * print_error - prints an error message
- * @info: the parameter & return info struct
- * @estr: string containing specified error type
+ * @estr: String containing the specified error
  * Return: 0 if no numbers in string, converted number otherwise
  *        -1 on error
  */

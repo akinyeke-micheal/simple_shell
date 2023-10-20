@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * is_chain - Tests if the current character in the buffer is a chain delimiter.
- *
- * This function examines the character at the current position in the buffer and
+ * is_chain - Tests if the current character in  buffer is a chain delimiter
+ *000000000
+ * This function examines the character at the current position in the buffer
  * checks if it represents a chain delimiter, such as '||', '&&', or ';'. If a
  * chain delimiter is found, it updates the buffer accordingly and sets the
  * command buffer type in the info structure.
@@ -82,7 +82,7 @@ void check_chain(info_t *info, char *buf, size_t *p, size_t i, size_t len)
  */
 
 int replace_alias(info_t *info)
-{r
+{
 	int i;
 	list_t *node;
 	char *p;
