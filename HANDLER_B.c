@@ -1,6 +1,19 @@
 #include "shell.h"
 
-
+/**
+ * is_chain - Tests if the current character in the buffer is a chain delimiter.
+ *
+ * This function examines the character at the current position in the buffer and
+ * checks if it represents a chain delimiter, such as '||', '&&', or ';'. If a
+ * chain delimiter is found, it updates the buffer accordingly and sets the
+ * command buffer type in the info structure.
+ *
+ * @info: The parameter and return info structure.
+ * @buf: The character buffer to analyze.
+ * @p: A pointer to the current position in the buffer.
+ *
+ * Return: 1 if the character is a chain delimiter, 0 otherwise.
+ */
 int is_chain(info_t *info, char *buf, size_t *p)
 {
 	size_t j = *p;
